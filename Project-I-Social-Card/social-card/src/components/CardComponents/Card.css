@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+.big_container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+}
+
+.big_img {
+    width: 100%;
+    height: auto;
+}
