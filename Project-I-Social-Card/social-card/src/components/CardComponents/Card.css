@@ -3,11 +3,47 @@
 .big_container {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 30%;
     height: auto;
+    margin: 0 auto;
+    background-color: #F5F3F0;
+    padding: 0 1% 0 0;
+}
+
+.banner_wrapper {
+    display: flex;
+    width: 100%;
+    background-color: #F5F3F0;
+}
+
+.spacer {
+    margin-right: 10%; 
+}
+.card_banner {
+    padding: 0px;
+    background-color: #F5F3F0;
+    width: 100%;
 }
 
 .big_img {
     width: 100%;
     height: auto;
+}
+
+.card_content {
+    margin: 1% 0 0 10%;
+}
+
+h5 {
+    margin: 0 0 0 1%;
+}
+
+.card_content_class {
+    margin: 2% 0 0 1%;
+    padding-right: 5%;
+}
+
+.web_address_class {
+    margin: 1% 0 0 1%;
+    font-size: 1rem;
 }

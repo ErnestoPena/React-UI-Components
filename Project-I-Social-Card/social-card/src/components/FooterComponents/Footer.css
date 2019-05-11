@@ -1,0 +1,15 @@
+.footer_class {
+    width: auto;
+    height: auto;
+    /* background-color: green; */
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.footer_element {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 11%;
+    display: inline-block;
+}
