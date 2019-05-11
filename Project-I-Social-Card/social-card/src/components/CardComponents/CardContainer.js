@@ -4,6 +4,7 @@ import HeaderContainer from '../HeaderComponents/HeaderContainer';
 import CardBanner from './CardBanner';
 import CardContent from '../CardComponents/CardContent';
 import FooterComponent from '../FooterComponents/Footer';
+import '../FooterComponents/footerevents.js';
 
 const CardContainer = () => {
     return (

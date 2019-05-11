@@ -1,9 +1,9 @@
 
-function my_footer_hover() {
-   
-    var footer_hover = document.querySelectorAll('.footer_element')
-    console.log(footer_hover)
-    
-}
+ function my_click_event(){
+ 
+        console.log('click')
+ }
 
-export default my_footer_hover;
+export default my_click_event;
+
+    

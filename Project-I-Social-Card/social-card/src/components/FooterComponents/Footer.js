@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { my_footer_hover } from './footerevents.js';
+import my_hover_event from './footerevents'
 
 import { FiRefreshCw } from 'react-icons/fi';
 import { FiHeart } from 'react-icons/fi'
@@ -8,18 +8,23 @@ import { FiMail } from 'react-icons/fi'
 import { MdChatBubbleOutline } from 'react-icons/md'
 
 const FooterComponent = () => {
+   
+  const my_click_event1 = () => {
+        console.log('click')
+    }
+
     return (
         <div className="footer_class">
-           <div className="footer_element">
+           <div onClick= {my_click_event1} className="footer_element">
              <MdChatBubbleOutline />
            </div> 
-           <div className="footer_element">
+           <div onClick= {my_click_event1} className="footer_element">
              <FiRefreshCw />
            </div>
-           <div className="footer_element">
+           <div onClick= {my_click_event1} className="footer_element">
              <FiHeart />
            </div>
-           <div className="footer_element">
+           <div onClick= {my_click_event1} className="footer_element">
              <FiMail />
            </div>
         </div>

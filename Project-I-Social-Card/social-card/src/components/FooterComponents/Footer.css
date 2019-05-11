@@ -13,3 +13,7 @@
     margin-left: 11%;
     display: inline-block;
 }
+
+.footer_element:hover {
+    transform: translateY(-2px);
+}
